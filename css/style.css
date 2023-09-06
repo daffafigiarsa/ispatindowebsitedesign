@@ -2043,6 +2043,11 @@ input.check-toggle-round-flat:checked + label:after {
 .scrollable-menu {
   height: auto;
   max-height: 200px;
-  overflow-x: hidden;
+  overflow-x: scroll;
+}
+
+.dropdown-menu {
+  max-height: 280px;
+  overflow-y: auto;
 }
 
