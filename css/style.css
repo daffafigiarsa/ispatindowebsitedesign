@@ -132,7 +132,6 @@ a:focus {
 	top: 50%;
 	font-size: 15px;
 	text-align: left;
-	color: #fff;
 	text-shadow: none;
 	margin-top: -170px;
 }
@@ -141,6 +140,7 @@ a:focus {
 	margin-bottom:10px;
 	letter-spacing:2px;
 	font-weight:100;
+  color:#fff;
 }
 .carousel-caption h2 {
 	color:#fff;
@@ -939,8 +939,8 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .job_section {
-  background-color: #08135c;
-  color: #ffffff;
+  background-color: #fff;
+  color: #08135c;
 }
 
 .job_section .heading_container {
@@ -2041,7 +2041,6 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .scrollable-menu {
-  height: auto;
   max-height: 200px;
   overflow-x: scroll;
 }
@@ -2051,3 +2050,45 @@ input.check-toggle-round-flat:checked + label:after {
   overflow-y: auto;
 }
 
+
+
+.job_area {
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;                     
+  background-image:  url(../images/job.png);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: white;
+}
+
+
+
+
+.carousel-caption h3 {
+	font-size:35px;
+	margin-bottom:10px;
+	letter-spacing:2px;
+	font-weight:200;
+  color: #08135c;
+}
+.carousel-caption h4 {
+	color: #3F58DD;
+	font-size:75px;
+	font-weight:bold;
+	margin-top:0px;
+	text-transform:none;
+	letter-spacing:2px;
+	margin-bottom:20px;
+}
