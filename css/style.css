@@ -939,8 +939,8 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .job_section {
-  background-color: #fff;
-  color: #08135c;
+  background-color: #08135c;
+  color: #fff;
 }
 
 .job_section .heading_container {
@@ -2091,4 +2091,32 @@ input.check-toggle-round-flat:checked + label:after {
 	text-transform:none;
 	letter-spacing:2px;
 	margin-bottom:20px;
+}
+
+.group_section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+
+.group_section button {
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  background: #3F58DD;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .3s; 
+  color: white;
+  border-color: transparent;
+  width: 150px;
+  height: 45px;
+
+}
+
+.group_section button:hover {
+  background: #F7F7F7;
+  color: #3F58DD;
+  border-radius: 5px;
+
 }
