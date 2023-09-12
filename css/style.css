@@ -2125,3 +2125,16 @@ input.check-toggle-round-flat:checked + label:after {
   background-color: #08135c;
   color: #fff;
 }
+
+
+.news-row{
+  background-color: #F7F7F7;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 5px;
+}
