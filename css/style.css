@@ -2120,3 +2120,8 @@ input.check-toggle-round-flat:checked + label:after {
   border-radius: 5px;
 
 }
+
+.product_section {
+  background-color: #08135c;
+  color: #fff;
+}
