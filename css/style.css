@@ -939,8 +939,8 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .job_section {
-  background-color: #08135c;
-  color: #fff;
+  background-color: #fff;
+  color: #08135c;
 }
 
 .job_section .heading_container {
@@ -1072,7 +1072,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .job_section .box .option-box .apply-btn:hover {
-  color: #ffffff;
+  color: #08135c;
 }
 
 .job_section .btn-box {
