@@ -2138,3 +2138,8 @@ input.check-toggle-round-flat:checked + label:after {
   width: 100%;
   border-radius: 5px;
 }
+
+.address {
+  position: relative;
+  top: -5px;
+}
