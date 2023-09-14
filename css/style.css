@@ -1751,13 +1751,12 @@ input.check-toggle-round-flat:checked + label:after {
 .news {
   height: 70vh;
   width: 100%;
-  padding-top: 140px;
-  text-align: left;
-  color: white;
+  padding-top: 160px;
   overflow: hidden;
   background: #08135c;  /* fallback for old browsers */
-  background: linear-gradient(rgba(0, 42, 72, 0.8), rgba(72, 76, 192, 0.8)), url("../images/news.png");  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgb(0, 42, 72, 0.8), rgb(72, 76, 192, 0.8)), url("../images/news.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(0, 75, 128, 0.8), rgba(72, 76, 192, 0.8)), url("../images/news-main.png");
+  background: linear-gradient(rgba(0, 75, 128, 0.8), rgb(72, 76, 192, 0.8)), url("../images/news-main.png"); 
+  /* background: url(../images/news-main.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1787,15 +1786,12 @@ input.check-toggle-round-flat:checked + label:after {
 
 
 
-.news .h1{
-  text-align: center;
-
-  color: white;
+.news h1{
+  color: #fff;
 }
 
-.news .h2{
+.news h5{
   color: #fff;
-
 }
 
 
@@ -1900,7 +1896,7 @@ input.check-toggle-round-flat:checked + label:after {
 
 
 #sidebar {  
-  background: #fff;
+  background: transparent;
   grid-area: sidebar;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
@@ -1984,13 +1980,13 @@ input.check-toggle-round-flat:checked + label:after {
   width: 100%;
   /* height: 550px; full */
   height: 475px;
-  padding: 0px;
-  opacity: 0.9;
-   background: linear-gradient(rgba(0, 42, 72, 0.8), rgba(72, 76, 192, 0.8)), url("../images/CS.png");  
-  background: linear-gradient(rgb(0, 42, 72, 0.8), rgb(72, 76, 192, 0.8)), url("../images/CS.png"); 
+  background: url(../images/CS.png);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  padding: none;
+  padding-top: 475px;
+  outline: none
 
 }
 
@@ -2067,7 +2063,7 @@ input.check-toggle-round-flat:checked + label:after {
           flex-direction: column;                     
   background-image:  url(../images/job.png);
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
   background-color: white;
