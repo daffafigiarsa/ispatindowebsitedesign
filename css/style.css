@@ -2139,3 +2139,24 @@ input.check-toggle-round-flat:checked + label:after {
   position: relative;
   top: -5px;
 }
+
+
+.under_area {
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; 
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;                     
+  background-image:  url(../images/under.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: white;
+}
