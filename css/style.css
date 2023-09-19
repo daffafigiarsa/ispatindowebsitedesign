@@ -1985,8 +1985,8 @@ input.check-toggle-round-flat:checked + label:after {
   background-repeat: no-repeat;
   overflow: hidden;
   padding: none;
-  padding-top: 475px;
-  outline: none
+  padding-top: 460px;
+  outline: none 
 
 }
 
@@ -2063,7 +2063,6 @@ input.check-toggle-round-flat:checked + label:after {
           flex-direction: column;                     
   background-image:  url(../images/job.png);
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
   background-color: white;
