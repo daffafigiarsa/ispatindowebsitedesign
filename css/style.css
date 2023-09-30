@@ -2153,9 +2153,28 @@ input.check-toggle-round-flat:checked + label:after {
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;                     
-  background-image:  url(../images/under.png);
+  background-image:  url(../images/UNDER2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: white;
+}
+
+.warp-right {
+  float: right;
+}
+
+.shadowcard {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.12);
 }
