@@ -6568,7 +6568,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #213092 !important;
+  background-color: #fff !important;
   opacity: 1;
   height: 70px;
 }
