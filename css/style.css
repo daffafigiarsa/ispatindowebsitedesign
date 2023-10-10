@@ -1793,18 +1793,18 @@ input.check-toggle-round-flat:checked + label:after {
 .news h5{
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.detail {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 56.25%;  
+}
+.detail iframe{
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 100%;
+  height: 100%; border: none; border-radius: 5px;
+}
 /* The alert message box */
 .alert {
   width: 100%;
