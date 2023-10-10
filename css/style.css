@@ -2153,7 +2153,7 @@ input.check-toggle-round-flat:checked + label:after {
      -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;                     
-  background-image:  url(../images/UNDER2.png);
+  background-image:  url(../images/under3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
