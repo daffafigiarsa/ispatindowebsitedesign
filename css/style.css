@@ -2141,19 +2141,8 @@ input.check-toggle-round-flat:checked + label:after {
 
 
 .under_area {
-  position: relative;
-  height: 86vh;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex; 
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;                     
-  background-image:  url(../images/under4.png);
+  height: 100vh;                    
+  background-image:  url(../images/under3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
