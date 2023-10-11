@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="images/title2.png" type="images/x-icon">
+
+    <title>ISPAT INDO</title>
+    <link href="images/ispat.ico" rel="icon">
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="{{ $class }}">
+    <div class="{{ $navbar }}">
+
+        <!-- header section strats -->
+
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="/">
+                        <img src="images/logo-ispat.png" alt="Logo" />
+                        <span>
+                            ISPAT INDO
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  ml-auto">
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link" type="button" data-toggle="dropdown">Company</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="profilindo">Profile</a>
+                                        <a class="dropdown-item" href="bod">Board od Directors</a>
+                                        <a class="dropdown-item" href="vision">Visin, Mision & Value</a>
+                                        <a class="dropdown-item" href="highlight">Achivements</a>
+                                        <a class="dropdown-item" href="milestone">Management System</a>
+                                        <a class="dropdown-item" href="she">Safety, Healty and Environment</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="customer-center">
+                                    <span>
+                                        Customer Center
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link" type="button" data-toggle="dropdown">Industrial Process</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="fasilitas">Facilities</a>
+                                        <a class="dropdown-item" href="steelmaking">Process Flowchart of Steel Making</a>
+                                        <a class="dropdown-item" href="rolling">Process Flowchart of Wire Rod Rolling</a>
+                                        <a class="dropdown-item" href="fasilitaspancaputra">Process Ispat Panca Putera Facilities</a>
+                                        <a class="dropdown-item" href="fasilitasbukitnaja">Process Ispat Bukit Baja Facilities</a>
+                                        <a class="dropdown-item" href="fasilitaswire">Process Ispat Wire Products Facilities</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            </form>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link" type="button" data-toggle="dropdown">Subsidiaries</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="ispatwireproduct">PT Ispat Wire Product</a>
+                                        <a class="dropdown-item" href="ispatpancaputra">PT Ispat Panca Putera</a>
+                                        <a class="dropdown-item" href="ispatbukitbaja">PT Ispat Bukit Baja</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                  <span>
+                                    News
+                                  </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="karir">
+                                    <span>
+                                        Careers
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                  <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <img src="assets/img/Web.png" alt="logo" style="max-width: 2rem; position: relative; bottom: 7px; left: 0px;">
+                                    {{ $sub }}
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="{{ $url }}">ENGLISH</a>
+                                    <a class="dropdown-item" href="{{ $url }}_indo">INDONESIAN</a>
+                                  </div>
+                                  </div>
+                              </li>
+                            {{-- <li class="topnav">
+                                <div class="login-container">
+                                    <a href="{{ $url }}_indo" ">ENGLISH</a>
+                                </div>
+                            </li> --}}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+
+
+
+          <div class="Message Message--green alert" role="alert">
+            <div class="Message-icon">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="Message-body">
+              <h4>Success!</h4>
+              <p>Please check your email.</p>
+            </div>
+            <button type="button" class="Message-close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+
+
+
+
+
+
+
+            <!-- slider section -->
+            <div id="home-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <h1>Steel Wire Factory</h1>
+                                    <h2>PT. ISPAT INDO</h2>
+                                    <p>Was Established in Indonesia in 1976</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <!-- end slider section -->
+
+
+            </div>
+
+            </div>
+
+
+            <div class="timpahero"></div>
+            <div>
+
+
+                <!-- about section -->
+
+                <section class="about_section layout_padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="detail-box">
+                                    <div class="heading_container">
+                                        <h2>
+                                            About Us
+                                        </h2>
+                                    </div>
+                                    <p>
+                                        PT. Ispat Indo was established in Indonesia in 1976. the company was set up as a 60.000 tpa
+                                        Greenfield Project, for rolling. Today Ispat Indo has an annual Product capacity in excess
+                                        of
+                                        700.000 tons...
+                                    </p>
+                                    <a href="profilindo">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-box">
+                                    <iframe allowfullscreen width="420" height="315" src="https://www.youtube.com/embed/f53DFw5KV14">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="timpaau">
+
+                </div>
+                <!-- end about section -->
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Start client -->
+                <section class="job_section layout_padding">
+                    <section id="client" class="light-bg p-top-80 p-bottom-80">
+
+                        <!-- Section Title -->
+                        <div class="section-title text-center m-bottom-40">
+                            <h2>OUR PRODUCTS</h2>
+                            <div class="divider-center-small"></div>
+                        </div>
+
+                        <!-- === Clients === -->
+
+                        <div class="container ">
+                            <div class="row">
+
+                                <div id="owl-clients" class="owl-carousel owl-theme client text-center">
+
+                                    <!-- === Client 1 === -->
+                                    <div class="client-item text-center">
+                                        <a href="highcarbon">
+                                            <img class="img-responsive" src="assets/img/SVG.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>High Carbon Steel</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 2 === -->
+                                    <div class="client-item text-center">
+                                        <a href="lowcarbon">
+                                            <img class="img-responsive" src="assets/img/SVG-1.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>Low Carbon Steel</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 3 === -->
+                                    <div class="client-item text-center">
+                                        <a href="clodheading">
+                                            <img class="img-responsive" src="assets/img/SVG-2.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>CH Quality Steel</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 4 === -->
+                                    <div class="client-item text-center">
+                                        <a href="generalpw">
+                                            <img class="img-responsive" src="assets/img/SVG-3.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>General Purpose WR</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 5 === -->
+                                    <div class="client-item text-center">
+                                        <a href="welding">
+                                            <img class="img-responsive" src="assets/img/SVG-4.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>Welding Electrode</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 6 === -->
+                                    <div class="client-item text-center">
+                                        <a href="pline">
+                                            <img class="img-responsive" src="assets/img/SVG-5.png" alt="">
+                                            <a></a>
+                                            <h1></h1>
+                                            <h6>Plain / Deform Bar</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 7 === -->
+                                    <div class="client-item text-center">
+                                        <a href="structure">
+                                            <img class="img-responsive" src="assets/img/SVG-6.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>Structural Steel</h6>
+                                        </a>
+                                    </div>
+
+                                    <!-- === Client 8 === -->
+                                    <div class="client-item text-center">
+                                        <a href="nails">
+                                            <img class="img-responsive" src="assets/img/SVG-7.png" alt="">
+                                            <h1></h1>
+                                            <h1></h1>
+                                            <h6>Nail & Nail Wire</h6>
+                                        </a>
+                                    </div>
+
+
+
+                                </div><!-- /#owl-testimonials -->
+
+                            </div> <!-- /.row -->
+                        </div> <!-- /.container -->
+                    </section>
+
+                </section>
+                <!-- End client -->
+
+                <!-- expert section -->
+
+
+          <section class="expert_section layout_padding">
+            <div class="container">
+              <div class="heading_container heading_center">
+                <h2>
+                  Our Achivements
+                </h2>
+                <p>
+                    "Our Achievements" at Ispat Indo showcase our notable accomplishments and successes that we have
+                    attained over the years.
+                    These accomplishments reflect our dedication to excellence, innovation, and a commitment to
+                    delivering
+                    high-quality
+                    products and services. From surpassing production milestones to achieving industry recognition, our
+                    achievements are
+                    a testament to our team's hard work, strategic vision, and unwavering pursuit of excellence in the
+                    steel
+                    industry.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="assets/img/logo/ISO_14001_NEW.png" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h6>ISO 14001 Approval Certificate</h6>
+                        <h6></h6>
+                        <a href="isocertification">
+                          <p class="pkebawah">Read More >></p>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/ISO_45001_NEW.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>ISO 45001 Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="isocertification">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/ISO_50001_NEW.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>ISO 50001 Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="isocertification">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/ISO_9001_NEW.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>ISO 9001 Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="isocertification">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/jis.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>JIS Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="jisapproval">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/SNI-07-2052-2017.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>Steel Bar for Reinforcement</h6>
+                      <h6></h6>
+                      <a href="sni">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/SNI 07-0954-2005.jpeg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>Steel Bar In Coil</h6>
+                      <h6></h6>
+                      <a href="sni">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/kan.jpeg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>LP - 455 – IDN Accreditation by KAN</h6>
+                      <h6></h6>
+                      <a href="kan">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/SMK3 LOGO.jpeg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>SMK3 Approval ertificate</h6>
+                      <h6></h6>
+
+                        <a href="sirim">
+                          <p class="pkebawah">Read More >></p>
+                        </a>
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/proper.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>Proper Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="tkdn">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/logo zero accident.jpg" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>Zero Accident Approval Certificate</h6>
+                      <h6></h6>
+                      <a href="sni">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card text-center">
+                  <div class="box">
+                    <div class="img-box">
+                      <img src="assets/img/logo/sirim.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                      <h6>SIRIM Approval</h6>
+                      <h6></h6>
+                      <a href="sirim">
+                        <p class="pkebawah">Read More >></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <!--
+              </div>
+              <div class="btn-box">
+                <a href="">
+                  View All Achivements
+                </a>
+              </div>-->
+            </div>
+          </section>
+
+
+
+
+
+          <!-- end news section -->
+
+          <section class="expert_section layout_padding">
+            <div class="about_section">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <div class="heading_container heading_center p-bottom-40">
+                      <h2>
+                        CONTACT
+                      </h2>
+                      <p>
+                        We're here to help and answer any question you might have. We look forward to hearing from you.
+                      </p>
+                      <br>
+                    </div>
+
+
+                            <div class="container_CS">
+
+                              <div id="sidebar">
+                                <img>
+                                <a href="customer-center">
+                                    <p>Customer Services</p>
+                                </a>
+                              </div>
+
+                              <div id="content1">
+                                <img src="assets/img/icon/Markicon.png" alt="icon" style="max-width: 6rem;" >
+                                <h1>Address</h1>
+                                <p>PV3+VC5, (Kec.)  Taman, <br>(Kab.) Sidoarjo : 61257</p>
+                              </div>
+
+                              <div id="content2">
+                                <img src="assets/img/icon/Phoneicon.png" alt="icon" style="max-width: 6rem;" >
+                                  <h1>Call Us</h1>
+                                  <p>Telp : (62) 31-7887000 <br>Fax : (62) 31-7887500 (031)</p>
+                              </div>
+
+                              <div id="content3">
+                                <img src="assets/img/icon/Emailicon.png" alt="icon" style="max-width: 6rem;" >
+                                  <h1>Email Us</h1>
+                                  <p>sales@ispatindo.com <br>ispatindo.com</p>
+                              </div>
+
+                              <div id="content4">
+                                <img src="assets/img/icon/Clockicon.png" alt="icon" style="max-width: 6rem;" >
+                                  <h1>Open Hours</h1>
+                                  <p>Monday - Friday <br>9.00 - 18.00 WIB</p>
+                              </div>
+
+
+                            </div>
+
+                          </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+
+   <!-- info section -->
+<section class="info_section ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 info_links">
+                <h4>
+                    Mail To
+                </h4>
+                <ul>
+                    <li class="">
+                        <a href="mailto:ispatindo@mittalsteel.com">
+                            Ispat Indo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:marketing.indo@mittalsteel.com">
+                            Sales & Marketing
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="mailto:custsupp.indo@mittalsteel.com">
+                            Tim CS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 info_links">
+                <h4 class="transparant-text ">
+                    .
+                </h4>
+                <ul>
+                    <li class="">
+                        <a href="mailto:hrd.indo@mittalsteel.com">
+                            Career
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:webmaster.indo@mittalsteel.com">
+                            Web Master
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://web.whatsapp.com/send?phone=628155152222&text=Hi%2c%20Ispatindo.com">
+                            WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="info_social">
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info_form">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end info_section -->
+
+
+<!-- footer section -->
+<footer class="footer_section">
+    <div class="container">
+        <p>
+            &copy; <span id="displayYear"></span> By
+            <a href="">PT. ISPAT INDO</a>
+        </p>
+    </div>
+</footer>
+<!-- footer section -->
+
+
+      <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
