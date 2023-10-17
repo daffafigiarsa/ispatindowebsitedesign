@@ -1450,12 +1450,17 @@ input.check-toggle-round-flat:checked + label:after {
 .info_section {
   background-color: #030d47;
   color: #ffffff;
-  padding: 65px 0 45px 0;
+  padding: 45px 0 25px 0;
 }
 
 .info_section h4 {
   font-weight: bold;
   margin-bottom: 20px;
+}
+.info_section h5 {
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #ccc;
 }
 
 .info_section .info_links ul {
@@ -1554,7 +1559,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .info_section .info_social .social_container a:hover {
-  color: #3F58DD;
+  background-color: #fff;
 }
 
 /* footer section*/

@@ -12,7 +12,8 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>PT. ISPAT INDO</title>
+  <title>PT. Ispat Indo</title>
+  <link rel="icon" href="images/title.png" type="images/x-icon">
 
 
   <!-- bootstrap core css -->
@@ -39,7 +40,7 @@
     
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container fixed-top navbar navbar-expand-lg avbar-light bg-light">
+        <nav class="navbar navbar-expand-lg custom_nav-container fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="index.html">
             <img src="../hirevac-html/images/logo-ispat.png" alt="Logo"/>
             <span>
@@ -53,7 +54,7 @@
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item">
                 <div class="dropdown">
-                <a class="nav-link" type="button" data-toggle="dropdown" >Company</a>
+                <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" >Company</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Profile</a>
                     <a class="dropdown-item" href="#">Board od Directors</a>
@@ -67,7 +68,7 @@
               
               <li class="nav-item">
                 <div class="dropdown">
-                <a class="nav-link" type="button" data-toggle="dropdown" >Product</a>
+                <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" >Product</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">High Carbon Steel</a>
                     <a class="dropdown-item" href="#">Low carbon Steel</a>
@@ -83,7 +84,7 @@
               
               <li class="nav-item">
                 <div class="dropdown">
-                <a class="nav-link" type="button" data-toggle="dropdown" >Industrial Process</a>
+                <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" >Industrial Process</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="#">Facilities</a>
                   <a class="dropdown-item" href="#">Process Flowchart of Steel Making</a>
@@ -98,7 +99,7 @@
             </form>
             <li class="nav-item">
               <div class="dropdown">
-              <a class="nav-link" type="button" data-toggle="dropdown" >Subsidiaries</a>
+              <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" >Subsidiaries</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">PT Ispat Wire Product</a>
                 <a class="dropdown-item" href="#">PT Ispat Panca Putera</a>
@@ -106,20 +107,31 @@
               </div>
               </div>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span>
+                  News
+                </span>
+              </a>
+            </li> 
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span>
+                  <span>  
                     Careers
                   </span>
                 </a>
               </li>
-              <li class="topnav">
-                <div class="login-container">
-                  <button 
-                  type="submit">ENGLISH
-                  <img src="images/logo/english.png"  alt="logo"/>
-                  </button>
-                </div>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown">
+                    <img src="images/logo/Web.png" alt="logo" style="max-width: 2rem; position: relative; bottom: 7px; left: 0px;">
+                    EN
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">ENGLISH</a>
+                    <a class="dropdown-item" href="#">INDONESIAN</a>
+                  </div>
+                  </div>
               </li>
             </ul>
           </div>
@@ -128,49 +140,40 @@
     </header>   
     <!-- end header section -->
 
-
-<div class="timpanav">
-
-</div>
-
-
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
+<section class="layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center" style="color: #08135c;">
+      <h2>
+        environment
+      </h2>
+    </div>
+    <br>
+    <div class="job_container">
+      <h4 class="job_heading">
+        Safety, Health & Environment
+      </h4>
       <div class="row">
-        <div class="col d-flex justify-content-center">
-          <div class="card text-center">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/logo/ISO_14001_NEW.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>ISO 4001 Approval Certificate</h6>
-                <h6></h6>
-                <a href="">
-                  <p>Read More >></p>
-                </a>
-            </div>
+        <div class="detail">
+          <iframe allowfullscreen  src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
           </div>
-        </div>
       </div>
+    </div>
+    
+    <br>
 
-      
-  </section>
+    <div class="job_container">
+      <h4 class="job_heading">
+        Environmental Consciousness
+      </h4>
+      <div class="row">
+        <div class="detail">
+          <iframe allowfullscreen  src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
+          </div>
+      </div>
+    </div>
 
-  <!-- end about section -->
-
-
-
-
-
-
-
-
-
-
+  </div>
+</section>
 
 
 
@@ -185,7 +188,7 @@
             Menu
           </h4>
           <ul>
-            <li class="active">
+            <li>
               <a href="index.html">
                 Home
               </a>
@@ -196,13 +199,13 @@
               </a>
             </li>
             <li>
-              <a class="" href="job.html">
+              <a class="active" href="job.html">
                 Jobs
               </a>
             </li>
             <li>
-              <a class="" href="freelancer.html">
-                Freelancers 
+              <a href="freelancer.html">
+                Freelancers
               </a>
             </li>
           </ul>
@@ -264,12 +267,6 @@
   <!-- end info_section -->
 
 
-
-
-
-
-  
-
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
@@ -289,7 +286,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-
 
 </body>
 
